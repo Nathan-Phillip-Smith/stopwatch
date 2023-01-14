@@ -1,0 +1,71 @@
+:root {
+    --color-1: rgb(66, 57, 49); 
+    --color-2: rgb(219, 179, 118);
+    --color-3: rgb(252, 242, 223);
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--color-2);
+}
+
+.watch {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: var(--color-2);
+    border: 2px solid var(--color-1);
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    color: var(--color-1);
+    font-size: 50px;
+    font-weight: 100;
+}
+
+p {
+   color: var(--color-3); 
+   display: flex;
+   justify-content: center;
+   margin-bottom: 4rem;
+   font-size: 40px;
+   font-weight: 100;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 25px;
+    margin: 0 1rem;
+    border-radius: 5px;
+    border-color: var(--color-1);
+    background-color: var(--color-2);
+    color: var(--color-3);
+    height: 40px;
+    width: 80px;
+}
+
+button:hover  {
+    cursor: pointer;
+}
